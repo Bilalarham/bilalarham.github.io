@@ -260,16 +260,18 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .teams,.projects{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before{
+.teams .title::before,
+.projects .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.teams .title::after,
+.projects .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -381,25 +383,9 @@ section .title::after{
     width: 70%;
 }
 /* Projects section styling */
-.projects{
-    color:#fff;
-    background: #111;
-}
-.projects .title::before{
-    background: #fff;
-}
 .projects .title::after{
     background: #111;
     content: "what i Make";
-}
-.projects .proj-content .card{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
 }
 .projects .proj-content .card .box{
     transition: all 0.3s ease;
@@ -421,6 +407,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .card .box a{
+    align-items: inherit;
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -436,6 +423,7 @@ section .title::after{
     color: #fff;
     background: none;
 }
+
 /* teams section styling */
 .teams .title::after{
     content: "who with me";
