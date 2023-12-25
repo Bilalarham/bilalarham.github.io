@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -106,7 +106,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #ffffff;
 }
 .navbar .menu li{
     list-style: none;
@@ -425,8 +425,10 @@ section .title::after{
 }
 
 /* teams section styling */
+
+
 .teams .title::after{
-    content: "who with me";
+    content: "What I Design";
 }
 .teams .carousel .card{
     background: #222;
@@ -455,10 +457,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    /* height: 400px;
+    width: 350px; */
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 8%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
@@ -486,6 +488,21 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
+
+.teams .carousel .card:hover a{
+    color: #fff;
+    background:#222;
+    ;
+}
+
+
+
+
+
+
+
+
 
 /* contact section styling */
 .contact .title::after{
